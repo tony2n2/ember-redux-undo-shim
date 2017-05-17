@@ -1,9 +1,11 @@
 {
   "name": "ember-redux-undo-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "redux-undo shim for Ember",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "redux",
+    "redux-undo"
   ],
   "license": "MIT",
   "author": "",
@@ -18,7 +20,9 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.0.0"
+    "ember-cli-babel": "^6.0.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-rename-files": "^0.0.3"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -39,7 +43,8 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.13.0",
     "ember-welcome-page": "^3.0.0",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "redux-undo": "^1.0.0-beta9-8"
   },
   "engines": {
     "node": ">= 4"
