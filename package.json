@@ -1,6 +1,6 @@
 {
   "name": "ember-redux-undo-shim",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "redux-undo shim for Ember",
   "keywords": [
     "ember-addon",
@@ -8,12 +8,15 @@
     "redux-undo"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Tony (https://github.com/tony2n2)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tony2n2/ember-redux-undo-shim"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
